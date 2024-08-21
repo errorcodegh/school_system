@@ -1,0 +1,108 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+#firsttop{
+	display: flex;
+}
+
+#p{
+	padding-left: 2em;
+	margin: 1.5em 0px;
+	font-weight: bold;
+	opacity: 0.7;
+	font-size: 1em;	
+	cursor: pointer;
+	display: none;
+
+}
+
+
+
+#p:hover{
+	color: green;
+}
+
+#secondtop{
+	background: rgba(255, 0, 0, 0.8);
+	width: 100%;
+	height: 8em;
+	display: flex;
+}
+
+#stud{
+	margin-left: 1em;
+	text-align: center;
+	color: white;
+	line-height: 2em;
+	opacity: 0.9;
+	
+}
+
+#stud1,#stud2,#stud3{
+	margin-left: 4em;
+	text-align: center;
+	color: white;
+	line-height: 2em;
+	opacity: 0.9;
+	
+
+	
+
+}
+
+#main{
+	width: 100%;
+	display: flex;
+	height: auto;
+}
+
+#left{
+	width: 25%;
+	background: rgba(0, 255, 0, 0.2);
+	line-height: 2.5em;
+	text-align: center;
+	font-weight: bold;
+
+
+}
+#left a{
+	text-decoration: none;
+}
+
+#left a:hover{
+	font-size: 1.1em;
+	color: red;
+}
+
+#right{
+	width: 75%;
+
+}
+
+#icon{
+	font-size: 5em;
+}
+#icon1{
+	font-size: 4em;
+}
+
+#ic{
+	font-weight: bold;
+}
+
+#pro{
+	opacity: 0.8;
+	color: black;
+
+}
+
+#my{	
+	background: whitesmoke;
+}
+
+
+
+

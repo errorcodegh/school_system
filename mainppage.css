@@ -1,0 +1,107 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+
+#adminlog{
+	width: 40%;
+	height: auto;
+	margin: 3em auto;
+	line-height: 2em;
+	border: 1px solid white;
+	background: silver;
+	text-align: center;
+    
+}
+
+#studentlog{
+	height: auto;
+	margin: 3em auto;
+	line-height: 2em;
+	border: 1px solid white;
+   width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 19em;
+  background-color: red;
+  overflow-x: hidden;
+  transition: 1.5s;
+  text-align: center;
+  display: none;
+}
+
+#tt{
+	width: 20em;
+	height: 2em;
+	text-align: center;
+	font-weight: bold;
+}
+
+#icon{
+	font-size: 4em;
+	border-radius: 50%;
+}
+
+#tt label{
+	font-weight: bold;
+	color: white;
+	opacity: 0.9;
+}
+
+#sub{
+	font-weight: bold;
+	font-size: 1.2em;
+	background: none;
+	color: white;
+	opacity: 0.9;
+}
+
+#tt:hover{
+   font-size: 1em;
+}
+
+#sub:hover{
+	font-size: 1.4em;
+}
+
+#signup{
+	background-color: rgba(0, 255, 0, 0.8);
+	width: 30%;
+	height: auto;
+	margin-top: 3em;
+	line-height: 2em;
+	display: none;
+}
+
+#user{
+	width: 20em;
+	height: 2.5em;
+	text-align: center;
+	font-weight: bold;
+}
+
+#icon{
+	font-size: 4em;
+}
+
+label{
+	font-weight: bold;
+}
+
+#sub1{
+	font-size: 1.2em;
+	font-weight: bold;
+	background: none;
+}
+
+#sub1:hover{
+	font-size: 1.5em;
+}
+
+#user:hover{
+   font-size: 0.9em;
+}
+

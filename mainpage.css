@@ -1,0 +1,129 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+#studentlog{
+	height: auto;
+	margin: 3em auto;
+	line-height: 2.2em;
+	border: 1px solid white;
+   width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 19em;
+  background-color: red;
+  overflow-x: hidden;
+  transition: 1.5s;
+  text-align: center;
+
+}
+
+#adminlog{
+	width: 40%;
+	height: auto;
+	margin: 3em auto;
+	line-height: 2.2em;
+	border: 1px solid white;
+	background: gray;
+	text-align: center;
+    
+}
+
+#tt{
+	width: 20em;
+	height: 2em;
+	text-align: center;
+	font-weight: bold;
+}
+
+#icon{
+	font-size: 4em;
+	border-radius: 50%;
+}
+
+#tt label{
+	font-weight: bold;
+	color: white;
+	opacity: 0.9;
+}
+
+#sub{
+	font-weight: bold;
+	font-size: 1.2em;
+	background: none;
+	color: white;
+	opacity: 0.9;
+}
+
+#tt:hover{
+   font-size: 1em;
+}
+
+#sub:hover{
+	font-size: 1.4em;
+}
+
+
+#user{
+	width: 20em;
+	height: 2.5em;
+	text-align: center;
+	font-weight: bold;
+}
+
+#icon{
+	font-size: 4em;
+}
+
+label{
+	font-weight: bold;
+}
+
+#sub1{
+	font-size: 1.2em;
+	font-weight: bold;
+	background: none;
+}
+
+#sub1:hover{
+	font-size: 1.5em;
+}
+
+#user:hover{
+   font-size: 0.9em;
+}
+
+#studentlog label {
+	color: white;
+}
+
+#logging label {
+	color: white;
+}
+
+span{
+color: red  ;
+}
+
+#h1{
+	color: white;
+	font-family: comic sans ms;
+}
+
+h2{
+	color: white;
+	font-family: comic sans ms;
+	}
+
+	#back{
+     position: absolute;
+     right: 2em;
+     top: 10px;
+     background: none;
+     color: white;
+     font-weight: bold;
+	}
+

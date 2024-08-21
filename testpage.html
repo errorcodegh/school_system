@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head><title>tester</title>
+	<style>
+.cls{
+  height: auto;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 25em;
+  background-color: red;
+  overflow-x: hidden;
+  transition: 0.5s;
+
+}
+
+
+
+#op{
+	margin: 0 auto;
+	margin-top: 8em;
+}
+
+
+
+</style>
+<head>
+	<body>
+        <div id="clear" class="cls">
+        	  <button class="closebtn" onclick="closenav()">close</button>
+        	<a href="#">home</a><br>
+        	<a href="#">home</a><br>
+        	<a href="#">home</a><br>
+        	<a href="#">home</a><br>
+        	<a href="#">home</a><br>
+        	<a href="#">home</a><br>
+        </div>
+
+
+		
+       <center><button onclick="openav()" id="op">open</button></center>
+  
+
+        <script>
+function openav() {
+  document.getElementById("clear").style.width = "250px";
+  document.getElementById("op").style.display = "none";
+}
+
+function closenav() {
+  document.getElementById("clear").style.width = "0";
+  document.getElementById("op").style.display = "block";
+}
+</script>
+
+
+	</body>
+	</html>

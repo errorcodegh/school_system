@@ -1,0 +1,96 @@
+
+<?php
+
+
+
+
+
+
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head><title>MANAGEMENT SYSTEM FOR JUNIOR SCHOOL</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="mainpage.css">
+</head>
+	<body>
+		
+		<div id="logging">
+			<div id="studentlog">
+				<div><i class="fa fa-user-circle" id="icon" style="background-color: gold;"></i></div>
+				<form name="loggingpage" METHOD="POST" action="mainpage.html">
+					<h1></h1>
+					<label for="username">UserName</label><br>
+						<input type="text" id="tt" name="username" placeholder="Name here"><br>
+						<label for="password">PassWord</label><br>
+						<input type="text" id="tt" name="password" placeholder="Password here"><br>
+						<input type="checkbox" id="but" onclick="check()"><b style="font-size: 1.1em;">&nbsp&nbspDont have an acount here!!!</b> <br>
+						<input type="submit" id="sub" name="submit" value="Submit">
+					</form>
+			</div>
+
+			<div id="adminlog">
+				<div><i class="fa fa-user-circle" id="icon" style="background-color: white;"></i></div>
+				<form name="loggingpage" METHOD="POST" action="mainpage.html">
+					<h1></h1>
+					<label for="username">UserName</label><br>
+						<input type="text" id="tt" name="username" placeholder="Name here"><br>
+						<label for="Password">PassWord</label><br>
+						<input type="text" id="tt" name="password" placeholder="Password here"><br>
+						<input type="checkbox" onclick="check()"><b style="font-size: 1.1em;">&#160&#160Dont have an account here!!!</b><br>
+						<input type="submit" id="sub" name="submit" value="Submit">
+					</form>
+			</div>
+			</div>
+    <center>
+	<div id="signup">
+	<form name="signup" method="POST" action="signup.html">
+		<div><i class="fa fa-user-circle" id="icon" style="background-color: gold;"></i></div>
+		<label for="username">UserName</label><br>
+		<input type="text" placeholder="username" id="user"><br>
+
+		<label for="email">Email</label><br>
+		<input type="text" placeholder="email" id="user"><br>
+
+		<label for="username">Phone</label><br>
+		<input type="text" placeholder="phone" id="user"><br>
+
+		<label for="username">Password</label><br>
+		<input type="text" placeholder="password" id="user"><br><br>
+
+		<input type="checkbox" onclick="check()"><b style="font-size: 1.1em;">&#160&#160Get back to login!!!</b><br>
+
+		<input type="submit" name="submit" id="sub1" value="submit">
+	</center>
+	</form>
+</div>
+
+			<script>
+				
+ var log =  document.getElementById("logging");
+ var sign =  document.getElementById("signup");
+
+
+function check(){
+   if(sign.style.display === "none"){
+       sign.style.display ="block";
+       log.style.display ="none";
+   }
+
+   else{
+   	  sign.style.display ="block";
+      log.style.display ="none"; 
+   }
+}
+   
+ 
+			</script>
+
+
+
+
+</body>
+</html>
+
